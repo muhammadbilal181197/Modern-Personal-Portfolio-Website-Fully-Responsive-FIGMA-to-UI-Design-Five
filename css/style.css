@@ -1,0 +1,403 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url("../font/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Regular.ttf");
+}
+
+.font_primary {
+  font-family: "Merriweather";
+}
+
+.font_secondary {
+  font-family: "Montserrat";
+}
+body{
+  background-color: #FAF7F7;
+}
+header {
+  width: 100%;
+  z-index: 1;
+}
+
+.main {
+  background: url("../images/main.bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(90vh - 60px);
+  background-size: cover;
+}
+
+
+
+
+.card_content {
+  width: 80%;
+  /* margin-top: 420 */
+}
+
+/* Typography */
+.main_heading {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 39px;
+  color: #000000;
+  margin: 0;
+}
+
+.heading_color {
+  color: #F78065;
+}
+
+.main_tagline {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  opacity: 0.6;
+  margin: 0;
+}
+
+.btn_primary,
+.btn_secondary {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+  background-color: #f78065;
+  border: none;
+  border-radius: 0;
+}
+
+.btn_secondary {
+  width: 250px;
+  height: 65px;
+}
+
+/* Section 2 Section 3 Section 5 same heading + tagline + line */
+.heading_font {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+  margin: 0;
+}
+
+.tagline_font {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.line_font {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  color: #f78065;
+  margin: 0;
+}
+
+.facility, .community, .advantages {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+  margin: 0;
+}
+
+.itlay {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.community_font {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.location_font {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  color: #3F3D56;
+  margin: 0;
+}
+
+.site_font {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 18px;
+  color: #F78065;
+  margin: 0;
+}
+
+.footer_head {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.footer_tagline {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+  color: #000000;
+}
+
+.network_font,
+.manager_font,
+.assistance_font {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin: 0;
+}
+footer{
+  background: #F7F7F7;
+}
+.foot_tagline{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.border{
+  border: 1px solid #000000;
+}
+
+/* Media Query */
+
+@media (min-width: 1200px) {
+  .main_card {
+    max-width: 760px;
+    border: none;
+    border-radius: 0;
+    top: 40%;
+  }
+  .p-top{
+    padding-top: 330px !important;
+  }
+  
+}
+
+@media (min-width: 992px) {
+.promoting_w{
+  max-width: 340px;
+}
+.easycamper_w{
+  max-width: 330px;
+}
+.additional_w, .tours_w, .services_w, .discover_w{
+  max-width: 370px;
+}
+.travelling_w,
+.free_w,
+.foget_w,
+.showcase_w,
+.community_w,
+.itlay_w {
+  max-width: 340px;
+}
+.text_w{
+  max-width: 380px;
+}
+.footer_tagline {
+  max-width: 330px;
+}
+.stopover_w,
+.add_w {
+  max-width: 260px;
+}
+
+.main_card {
+  max-width: 760px;
+  border: none;
+  border-radius: 0;
+  top: 62%;
+}
+
+.p-top{
+  padding-top: 310px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .p-top{
+    padding-top: 300px;
+  }
+
+  .main_card {
+    max-width: 760px;
+    border: none;
+    border-radius: 0;
+    top: 57%;
+  }
+ 
+  .m-top{
+    margin-top: 45px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .responsive{
+    padding-top: 26px;
+  }  
+
+  .p-top{
+    padding-top: 250px;
+  }
+  .main_card {
+    max-width: 760px;
+    border: none;
+    border-radius: 0;
+    top: 57%;
+  }
+  .main_card {
+    max-width: 760px;
+    border: none;
+    border-radius: 0;
+    top: 30%;
+  }
+  .main{
+    height: calc(60vh - 60px);
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+  .main_card {
+    max-width: 760px;
+    border: none;
+    border-radius: 0;
+    top: 70%;
+  }
+  .p-top{
+    padding-top: 200px;
+  }
+  .card_content {
+    width: 80%;
+  }
+  .main_heading {
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+  }
+  .main_tagline {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+    margin: 0;
+  }
+  .main_card {
+    max-width: 760px;
+    border: none;
+    border-radius: 0;
+    top: 40%;
+  }
+  .main{
+    height: calc(60vh - 60px);
+  }
+  #reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .responsive_head, .responsive_reserved{
+    margin-top: 30px;
+  }
+  .responsive_heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .responsive_community, .responsive_footer{
+    margin-bottom: 50px;
+  }
+  .responsive_foot{
+    margin-bottom: 20px;
+  }
+  .f_border{
+    flex-direction: column;
+  }
+  .community_font {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    margin: 0;
+  }
+  .btn_secondary {
+    width: 150px;
+    height: 45px;
+  }
+  .main_heading {
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+  }
+  .main_tagline {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+    margin: 0;
+  }
+  .card_content {
+    width: 70%;
+  }
+
+  .main_card {
+    max-width: 760px;
+    border: none;
+    border-radius: 0;
+    top: 30%;
+  }
+  .main{
+    height: calc(60vh - 60px);
+  }
+  .p-top{
+    padding-top: 150px;
+  }
+
+  .site_font {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 10px;
+    color: #F78065;
+    margin: 0;
+  }
+  
+  .main{
+background-position: 75%;
+  }
+  #reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
+}
